@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
+#espaco-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#espaco-img img {
+    height: 40px;
+}
+
 @media  (max-width:619px) {
     header img {
         height: 20px;
@@ -138,6 +149,10 @@
     
         #project div:hover{
             transform: scale(105%);
+        }
+
+        #espaco-img img {
+            height: 50px;
         }
     
         #ctt {
